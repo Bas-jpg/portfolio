@@ -1,0 +1,73 @@
+* {
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+    color: var(--textColor);
+    overflow-x: hidden;
+}
+
+:root {
+    --backgroundColor: #848EBD;
+    --btnColor: #45508A;
+    --text2Color: #D8DCF0;
+    --color4: #1A2457;
+    --textColor: #050D33;
+}
+
+button {
+    background-color: var(--btnColor);
+    color: var(--text2Color);
+    width: 300px;
+    height: 150px;
+    border-radius: 20px;
+    transition: 0.5s;
+    border: 1px;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: var(--color4);
+    cursor: pointer;
+}
+
+body {
+    background-color: var(--backgroundColor);
+}
+
+header {
+    background-color: var(--btnColor);
+    height: 70px;
+    box-shadow: 0px 5px 5px;
+}
+
+.goToHome {
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+
+nav {
+    position: absolute;
+    top: 19px;
+    left: 200px;
+    font-size: 23px;
+    background-color: var(--backgroundColor);
+    height: 40px;
+    width: 330px;
+}
+
+.firsth1 {
+    text-align: center;
+    font-size: 100px;
+}
+
+a {
+    position: relative;
+    transition: 0.5s;
+    margin-left: 10px;
+    top: 7px;
+}
+
+a:hover {
+    color: var(--text2Color);
+}
